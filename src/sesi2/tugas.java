@@ -58,7 +58,7 @@ public class tugas extends JFrame {
         labelSavings.setBounds(15, 200, 350, 10);
         inputPanel.add(labelSavings);
 
-        String[] savingsOptions = {"Tabungan A", "Tabungan B", "Tabungan C", "Tabungan D"};
+        String[] savingsOptions = {"Diamond", "Platinum", "Gold", "Silver"};
         JList<String> savingsList = new JList<>(savingsOptions);
         JScrollPane savingsScrollPane = new JScrollPane(savingsList);
         savingsScrollPane.setBounds(15, 220, 350, 60);

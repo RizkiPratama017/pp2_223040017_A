@@ -55,7 +55,11 @@ public class Latihan7 extends JFrame {
                 String jenisKelamin = radioButton.isSelected() ? radioButton.getText() : radioButton1.getText();
                 String wargaNegara = CheckboxSelected ? "Ya" : "Tidak";
 
-                txtOutput.setText("Nama: " + nama + "\nNomor Hp: " + nomorHp + "\nJenis Kelamin: " + jenisKelamin + "\nWarga Negara Asing: " + wargaNegara + "\n========================================");
+                txtOutput.setText("Nama: " + nama + 
+                "\nNomor Hp: " + nomorHp + 
+                "\nJenis Kelamin: " + jenisKelamin + 
+                "\nWarga Negara Asing: " + wargaNegara + 
+                "\n========================================");
             }
         });
 
