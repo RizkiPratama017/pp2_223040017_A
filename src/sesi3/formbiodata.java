@@ -13,7 +13,7 @@ public class formbiodata extends JFrame {
 
     public formbiodata() {
         setTitle("Form Biodata");
-        setSize(400, 600);  // Adjusted size to fit the output area
+        setSize(400, 600);  
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridBagLayout());
         
